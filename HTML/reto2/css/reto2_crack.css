@@ -1,15 +1,29 @@
-#title 
+	#title 
 {
-
-	color: #3E7321
-
+		color: #3E7321
 }
-#premis
+
+	#premis
 {
-
-	text-indent: 25%
-
+		text-indent: 25%
 }
-cite
-{background-color: #FFFFFF;
-text-indent: 25%}
+
+	p
+{
+			font-family: Arial
+}
+
+	h1
+{ 
+		font-family: Bookman Old Style
+}
+
+	h2
+{
+		font-family: Bookman Old Style
+}
+
+	ul
+{
+		padding-left: 25%
+}
