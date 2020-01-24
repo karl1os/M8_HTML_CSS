@@ -1,0 +1,49 @@
+body{
+	background-color: #333333;
+}
+/*quitar raya enlace*/
+a{
+	text-decoration: none;
+}
+/* centramos los h1 y h2*/
+h1,h2{
+	text-align: center;
+}
+/*selector id para el div folio*/
+#folio{
+border: 1px solid grey;
+width: 1000px;
+height: 1000px;
+margin-left:auto;
+margin-right:auto;
+margin-top: 100px;
+margin-bottom: 50px;
+
+padding: 50px; /*rellenuto para el folio*/
+background-color: #eeeeee; 
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*selector de clase*/
+.img_caballo{
+	width: 70%; /*altura 100% respecto al padre */
+	height: 40%; /*ancho 50% respecto al padre */
+}
+.img_ico{
+	width: 15%;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+}
+
+.titulo_enlace{
+	border-bottom: 3px solid #123456; 
+	width: auto;/*ancho respecto al padre*/
+	margin-left: auto;/*margen izquierdo*/
+	margin-right: auto;/*margen derecho*/
+	background-image: url("../src/img/trama.jpg"); 
+}
+
+/**/
+
+.titulo_enlace h2{
+	color: black;
+}
