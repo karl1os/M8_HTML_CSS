@@ -13,7 +13,7 @@ h1,h2{
 #folio{
 border: 1px solid grey;
 width: 1000px;
-height: 1000px;
+height: 2800px; /*ancho div padre*/
 margin-left:auto;
 margin-right:auto;
 margin-top: 100px;
@@ -26,12 +26,17 @@ box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 
 /*selector de clase*/
 .img_caballo{
-	width: 70%; /*altura 100% respecto al padre */
+	width: 100%; /*altura 100% respecto al padre */
 	height: 40%; /*ancho 50% respecto al padre */
 }
 .img_ico{
 	width: 15%;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+
+}
+/*para cuando el raton esta encima*/
+.img_ico:hover{
+	border:2px solid red;
 }
 
 .titulo_enlace{
@@ -46,4 +51,27 @@ box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 
 .titulo_enlace h2{
 	color: black;
+}
+
+.imagenes_flores{
+	background-image: url(../src/img/flores.png);
+	background-repeat: repeat-x; /*solo se repite en el eje X*/ 
+	background-color: #567890;
+	background-position: bottom;
+	background-attachment: fixed;
+	width: 800px;
+	height: 600px;
+	border: 5px solid #987654;
+}
+
+.imagenes_pinguino{
+	background-image: url(../src/img/pinguino.png);
+	background-repeat: no-repeat; /*solo se repite en el eje X*/ 
+	background-color: #567890;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: auto;
+	width: 800px;
+	height: 600px;
+	border: 5px solid #987654;
 }
